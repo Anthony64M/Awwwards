@@ -34,4 +34,9 @@ zipp==3.4.0
 pycodestyle==2.7.0
 toml==0.10.2
 djangorestframework==3.12.4
+autopep8==1.5.7
+django-mathfilters==1.0.0
+pycodestyle==2.7.0
+toml==0.10.2
+
 
