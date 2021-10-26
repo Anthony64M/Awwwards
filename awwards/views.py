@@ -92,7 +92,7 @@ def edit_profile(request, username):
 
 @login_required(login_url='login')
 def project(request, post):
-    post = Post.objects.get(title=post)
+    post = Post.objects.get(id=post)
     ratings = Rating.objects.filter(user=request.user, post=post).first()
     rating_status = None
     if ratings is None:
